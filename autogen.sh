@@ -5,4 +5,4 @@ libtoolize
 autoheader
 autoconf
 automake --add-missing
-./configure
+./configure --prefix=`pwd`/output
